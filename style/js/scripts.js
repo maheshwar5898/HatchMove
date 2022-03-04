@@ -865,7 +865,7 @@ $(document).ready(function () {
     delay: 6000,
     shadow: 0,
     gridwidth: [1240, 1024, 778, 480],
-    gridheight: [750, 750, 750, 600],
+    gridheight: [550, 550, 550, 500],
     responsiveLevels: [1240, 1024, 778, 480],
     disableProgressBar: "on",
     navigation: {

@@ -24,6 +24,15 @@
       type="text/css"
       href="style/css/customize/customize.css"
     /> -->
+	<style>
+		#myVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
+	</style>
 </head>
 
 <body>
@@ -170,9 +179,13 @@
               <!-- /.offcanvas-info -->
               <div class="video-wrapper inverse-text mt-3r pt-4" data-aos="fade">
                 <div class="video-wrapper-inner">
-                  <video muted autoplay loop preload="metadata" poster="style/media/movie.jpg">
+<!--                   <video muted autoplay loop preload="metadata" poster="style/media/movie.jpg">
                     <source src="style/media/movie.mp4" type="video/mp4" />
-                  </video>
+                  </video> -->
+			<video autoplay muted loop id="myVideo">
+<source src="rain.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
                   <div class="">
                     <!-- /.container -->
                   </div>
